@@ -41,7 +41,7 @@ Para las resoluciones altas (1080p en adelante), YouTube guarda el video por un 
 
 Luego de eso, solo ejecutas `python download_yt.py` y listo, a descargar.
 
-- ### 4. Visual Studio Code
+### 4. Visual Studio Code
 
 Abre el archivo `python download_yt.py` con Visual Studio Code, busca este triangulo
 
