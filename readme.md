@@ -43,7 +43,7 @@ Luego de eso, solo ejecutas `python download_yt.py` y listo, a descargar.
 
 - ### 4. Visual Studio Code
 
-Abre el Visual Studio Code, busca este triangulo
+Abre el archivo `python download_yt.py` con Visual Studio Code, busca este triangulo
 
 <img width="115" height="65" alt="image" src="https://github.com/user-attachments/assets/304850c9-a005-4e19-9b62-fac16c0cae02" />
 <img width="353" height="73" alt="image" src="https://github.com/user-attachments/assets/fccfde24-a6b5-4427-aa20-2294d0680a47" />
