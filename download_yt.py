@@ -9,8 +9,8 @@ import tkinter as tk
 from tkinter import filedialog, messagebox
 import customtkinter as ctk
 
-ctk.set_appearance_mode("dark")  # Modo oscuro
-ctk.set_default_color_theme("dark-blue")  # Tema azul
+ctk.set_appearance_mode("light")  # Modo oscuro
+ctk.set_default_color_theme("green")  # Tema azul
 
 def es_url_valida(url):
     # Expresión regular para validar links de cualquier sitio web (no solo YouTube)
@@ -225,8 +225,8 @@ class DescargadorApp(ctk.CTk):
             width=385,
             height=12,
             corner_radius=6,
-            fg_color="#263238",
-            progress_color="#2DD4BF",
+            fg_color="#010101",
+            progress_color="#018A27",
         )
         self.progress_bar.pack(side=ctk.LEFT, padx=(0, 10))
 
@@ -284,7 +284,7 @@ class DescargadorApp(ctk.CTk):
             self,
             text="Peso estimado: analiza una URL",
             font=ctk.CTkFont(size=11, weight="bold"),
-            text_color="#2DD4BF",
+            text_color="#060606",
         )
         self.peso_estimado_label.pack(anchor="w", padx=40, pady=(0, 4))
 
